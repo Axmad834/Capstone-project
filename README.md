@@ -8,6 +8,9 @@ Backend – Java Spring Boot with JPA/Hibernate and PostgreSQL
 
 Frontend – React + TypeScript + Tailwind + Vite
 
+<img width="1897" height="944" alt="Снимок экрана 2025-08-15 171115" src="https://github.com/user-attachments/assets/2bb53d6e-e50c-43be-a9fe-0472cfd0ad30" />
+
+
 Overview
 
 The platform allows users to create accounts, explore available courses, and manage their personal learning journey through a clean and intuitive interface.
