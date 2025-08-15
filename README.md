@@ -12,7 +12,7 @@ Overview
 
 The platform allows users to create accounts, explore available courses, and manage their personal learning journey through a clean and intuitive interface.
 
-Database diagram (link) : https://dbdiagram.io/d/689f0daf1d75ee360abcf59d 
+Database diagram (link) in 3nf: https://dbdiagram.io/d/689f0daf1d75ee360abcf59d 
 
 Roles:
 
