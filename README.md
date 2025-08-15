@@ -10,6 +10,9 @@ Frontend – React + TypeScript + Tailwind + Vite
 
 <img width="1897" height="944" alt="Снимок экрана 2025-08-15 171115" src="https://github.com/user-attachments/assets/2bb53d6e-e50c-43be-a9fe-0472cfd0ad30" />
 
+<img width="1886" height="946" alt="image" src="https://github.com/user-attachments/assets/7f948435-54fd-4333-8b93-abd6cc094f4c" />
+
+
 
 Overview
 
