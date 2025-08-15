@@ -14,7 +14,7 @@ Frontend – React + TypeScript + Tailwind + Vite
 
 
 
-Overview
+# Overview
 
 The platform allows users to create accounts, explore available courses, and manage their personal learning journey through a clean and intuitive interface.
 
@@ -63,12 +63,7 @@ Database:
 Make sure PostgreSQL is running and your application.properties or application.yml is configured with your DB username, password, and database name.
 
 Run backend:
-
 mvn spring-boot:run
-
-3️ Frontend Setup
-# Open new terminal
-cd frontend
 
 # Install frontend dependencies
 npm install
@@ -88,7 +83,7 @@ Enter test credentials:    //without it you can not get access to db hence no ba
 
  
 
-#Grant Admin Rights
+# Grant Admin Rights
 
 To create or delete courses, you must assign Admin role manually in code.
 
