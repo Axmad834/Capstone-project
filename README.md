@@ -40,7 +40,7 @@ Admin Controls – Create, edit, and delete courses.
 
 Responsive UI – Works on desktop, tablet, and mobile.
 
-Tech Stack
+# Tech Stack
 
 Backend: Java 17+, Spring Boot, Spring Data JPA (Hibernate), PostgreSQL, Maven
 
@@ -51,8 +51,8 @@ Clone Repository
 git clone <repository-url>
 cd WebProject
 
-Backend Setup
-# Go to backend root folder
+# Backend Setup
+Go to backend root folder
 cd backend
 
 # Install backend dependencies
@@ -70,8 +70,8 @@ npm install
 
 # Run frontend
 npm run dev
-
-#Launch Application
+Launch Application
+http://localhost:5137
 
 After backend and frontend are running, go to:
 http://localhost:8080/
