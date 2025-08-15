@@ -1,2 +1,119 @@
 # Capstone-project
-Online Courses Management System – A Java Spring Boot application with JPA/Hibernate for managing users, courses, categories, enrollments, and user bios. Includes entity relationships (One-to-One, One-to-Many, Many-to-One) and a relational PostgreSQL database schema.
+WebProject – E-Learning Platform
+
+This project is a full-stack E-Learning Web Application that connects students with a variety of courses and learning resources.
+It includes:
+
+Backend – Java Spring Boot with JPA/Hibernate and PostgreSQL
+
+Frontend – React + TypeScript + Tailwind + Vite
+
+Overview
+
+The platform allows users to create accounts, explore available courses, and manage their personal learning journey through a clean and intuitive interface.
+
+Roles:
+
+User – Enroll in courses and manage personal progress.
+
+Admin – Manage courses and users.
+
+Features
+
+User Registration & Login – Create accounts, log in securely.
+
+Personal Dashboard – Track enrolled courses and progress.
+
+Course Listings – Browse and enroll in available courses.
+
+Profile Management – Edit personal details.
+
+Admin Controls – Create, edit, and delete courses.
+
+Responsive UI – Works on desktop, tablet, and mobile.
+
+Tech Stack
+
+Backend:
+
+Java 17+
+
+Spring Boot
+
+Spring Data JPA (Hibernate)
+
+PostgreSQL
+
+Maven
+
+Frontend:
+
+Vite
+
+React
+
+TypeScript
+
+Tailwind CSS
+
+Firebase (authentication / storage if configured)
+
+Installation & Setup
+1 Clone Repository
+git clone <repository-url>
+cd WebProject
+
+2️ Backend Setup
+# Go to backend root folder
+cd backend
+
+# Install backend dependencies
+mvn clean install
+
+
+Database:
+Make sure PostgreSQL is running and your application.properties or application.yml is configured with your DB username, password, and database name.
+
+Run backend:
+
+mvn spring-boot:run
+
+3️ Frontend Setup
+# Open new terminal
+cd frontend
+
+# Install frontend dependencies
+npm install
+
+# Run frontend
+npm run dev
+
+4️ Launch Application
+
+After backend and frontend are running, go to:
+http://localhost:8080/
+
+Enter test credentials:
+
+.username("admin")
+.password(encoder.encode("123"))
+
+5️ Grant Admin Rights
+
+To create or delete courses, you must assign Admin role manually in code.
+
+In
+src/main/java/com/example/project/ProjectApplication.java
+add the following:
+
+userService.giveAdminRoleToUser(1L);  // 1L = ID of the user you want to make ADMIN
+System.out.println("User with ID=1 is now an ADMIN");
+
+
+Run the project once, and that user will be given admin privileges.
+
+Production Build
+
+Frontend:
+
+npm run build
