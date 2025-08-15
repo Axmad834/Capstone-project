@@ -39,29 +39,9 @@ Responsive UI – Works on desktop, tablet, and mobile.
 
 Tech Stack
 
-Backend:
+Backend: Java 17+, Spring Boot, Spring Data JPA (Hibernate), PostgreSQL, Maven
 
-Java 17+
-
-Spring Boot
-
-Spring Data JPA (Hibernate)
-
-PostgreSQL
-
-Maven
-
-Frontend:
-
-Vite
-
-React
-
-TypeScript
-
-Tailwind CSS
-
-Firebase (authentication / storage if configured)
+Frontend: Vite, React, TypeScript, Tailwind CSS
 
 Installation & Setup
 1 Clone Repository
@@ -98,14 +78,18 @@ npm run dev
 After backend and frontend are running, go to:
 http://localhost:8080/
 
-Enter test credentials:
+Enter test credentials:    //without it you can get access to db hence no backend part ll be involved
 
 .username("admin")
 .password(encoder.encode("123"))
 
+ 
+
 5️ Grant Admin Rights
 
 To create or delete courses, you must assign Admin role manually in code.
+
+Important remark: to create new account , do press "start new 14 days trial" , and after registration log in one more time !
 
 In
 src/main/java/com/example/project/ProjectApplication.java
