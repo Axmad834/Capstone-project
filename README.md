@@ -47,11 +47,11 @@ Backend: Java 17+, Spring Boot, Spring Data JPA (Hibernate), PostgreSQL, Maven
 Frontend: Vite, React, TypeScript, Tailwind CSS
 
 Installation & Setup
-1 Clone Repository
+Clone Repository
 git clone <repository-url>
 cd WebProject
 
-2️ Backend Setup
+Backend Setup
 # Go to backend root folder
 cd backend
 
@@ -76,19 +76,19 @@ npm install
 # Run frontend
 npm run dev
 
-4️ Launch Application
+#Launch Application
 
 After backend and frontend are running, go to:
 http://localhost:8080/
 
-Enter test credentials:    //without it you can get access to db hence no backend part ll be involved
+Enter test credentials:    //without it you can not get access to db hence no backend part ll be involved
 
 .username("admin")
 .password(encoder.encode("123"))
 
  
 
-5️ Grant Admin Rights
+#Grant Admin Rights
 
 To create or delete courses, you must assign Admin role manually in code.
 
@@ -102,10 +102,6 @@ userService.giveAdminRoleToUser(1L);  // 1L = ID of the user you want to make AD
 System.out.println("User with ID=1 is now an ADMIN");
 
 
-Run the project once, and that user will be given admin privileges.
+OR Run the project once, and that user will be given admin privileges.
 
 Production Build
-
-Frontend:
-
-npm run build
