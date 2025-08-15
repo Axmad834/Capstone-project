@@ -12,6 +12,8 @@ Overview
 
 The platform allows users to create accounts, explore available courses, and manage their personal learning journey through a clean and intuitive interface.
 
+Database diagram (link) : https://dbdiagram.io/d/689f0daf1d75ee360abcf59d 
+
 Roles:
 
 User – Enroll in courses and manage personal progress.
