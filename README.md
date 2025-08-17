@@ -42,9 +42,9 @@ Responsive UI – Works on desktop, tablet, and mobile.
 
 ## API Documentation
 
-Before opening do not forget to pass auth in localhost:8080 and to authorize in localhost:5137 
-.username("admin")
-.password(encoder.encode("123"))
+Before opening do not forget to pass auth in localhost:8080 (.username("admin")
+.password(encoder.encode("123"))) and to authorize in localhost:5137 (u can create new account and log in one more time) !
+
 
 - OpenAPI JSON: [http://localhost:8080/v3/api-docs](http://localhost:8080/v3/api-docs)  
 - Swagger UI: [http://localhost:8080/swagger-ui/index.html](http://localhost:8080/swagger-ui/index.html)
